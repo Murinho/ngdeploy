@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration=production --base-href=/ngdeploy/",
+    "deploy": "ng build --base-href https://murinho.github.io/ngdeploy/ && npx angular-cli-ghpages --dir=dist/ngdeploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
